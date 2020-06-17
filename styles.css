@@ -1,0 +1,124 @@
+h1{
+  color:#fff;
+}
+
+body{
+	background:#5e1d47;
+    color:#fff;
+	font-family:"Georgia";
+}
+
+     .main{
+     	width:800px;
+     	height:400px;
+    	border:3px solid;
+	    margin: 0 auto;
+	   margin-top:100px;
+    }
+
+    .main .left{
+	 width:50%;
+	 height:100%;
+	 border:1px ;
+	 float: left;
+     text-align:center;
+     background:#436d94;
+     position:relative;
+     }
+
+     .main .left h1{
+	margin-top:90px;
+    }
+    .left form input{
+	width:50%;
+	height:35px;
+	border:none;
+    border-radius:25px;
+	margin-bottom:10px;
+	text-align:center;
+    background-color:#dccce6;
+    }
+	
+	.left form input:focus{
+		outline:none;
+	}
+    .left form input:[type="submit"]{
+		background:#ffbf37;
+		color:#fff;
+		cursor: pointer;
+		font-weight:bold;
+		
+	}
+	
+	.left form input[type="submit"]:hover{
+		background:#55ba4e;
+	}
+    .left p.forget: hover{
+		cursor:pointer;
+		text-decoration:underline;
+	}
+	
+   .left p.or{
+	 width:35px;
+	 height:30px;
+	 font-size:15px;
+     border-radius:50%;
+     padding-top:10px;
+	 text-align:center;
+     background:#e6c8fa;
+	 position:absolute;
+	 left:96%;
+    }
+
+     .main .right{
+		text-align:center;
+	}
+	
+	.main .right h1{
+		margin-top:90px;
+    }
+	
+	.right .social{
+		margin-top:40px;
+	}
+    .social button{
+		border:none;
+		padding:15px;
+		width:50px;
+		font-size:18px;
+		background:#fff;
+		margin-right:10px;
+		border-radius:45%;
+		
+	}
+
+ .social .twitter{
+		color:#55acee;
+	}
+.social .twitter:hover{
+		background:#55acee;
+		color:#fff;
+		cursor:pointer;
+	}
+	
+.social .facebook{
+		color:#012677;
+		
+	}
+	
+.social .facebook :hover{
+		background:#012677;
+		color:#fff;
+		cursor:pointer;
+	}
+	
+.social .google{
+		color:#d50f25;
+		
+	}
+	
+.social .google :hover{
+		background:#d50f25;
+		color:#fff;
+		cursor:pointer
+	}
